@@ -58,6 +58,7 @@ period of time.
 5. After waiting, will return a message to client stating, “Server waited <#>
 seconds for client <name>.”
 6. Begin at step 3 until connection is closed by the client.
+  
 The server must correctly handle an unexpected client disconnection without crashing.
 When a client disconnected, the user must be notified in real-time. The server should
 print messages both received from, and sent to, the client in unparsed HTTP so that the
